@@ -92,3 +92,14 @@ img {
     margin-right: -5px;
 margin-left: -6px;
 }
+
+.open-panel.link.icon-only {
+    margin-left: 10px;
+}
+.left {
+    margin-left: -26px;
+}
+
+.open-panel.link.icon-only {
+    margin-right: -19px;
+}
