@@ -43,16 +43,16 @@ $.ajax({
         async: true,
         
         type: "GET",
-        url: 'http://localhost/temple_emanu/rss.php?q=net',
+        url: 'http://gicebmedia.com/sahana/temple/rss.php?q=net',
         success: function (html) {
             $('#output').html(html);
             // $('#output').find('a').addClass('item-link');
-        var anchor= $$('#output').find('a');
-         $$(anchor).each(function(){
-            var link=$$(this).attr('href');
+        var anchor= $('#output').find('a');
+         $(anchor).each(function(){
+            var link=$(this).attr('href');
             
-           $$(this).attr('onclick', 'window.open("'+link+'","_system", "location=yes")');
-           $$(this).attr('href', 'javascript:void(0)');
+           $(this).attr('onclick', 'window.open("'+link+'","_system", "location=yes")');
+           $(this).attr('href', 'javascript:void(0)');
 
         })
             
