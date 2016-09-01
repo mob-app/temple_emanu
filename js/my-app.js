@@ -46,7 +46,7 @@ $.ajax({
         url: 'http://gicebmedia.com/sahana/temple/rss.php?q=net',
         success: function (html) {
             $('#output').html(html);
-            
+            $(html).find('a').addClass('item-link');
         },
     });
 })
@@ -64,7 +64,7 @@ $.ajax({
         url: 'http://gicebmedia.com/sahana/temple/rss.php?q=heb',
         success: function (html) {
             $('#output').html(html);
-            
+            $(html).find('a').addClass('item-link');
         },
     });
 })
