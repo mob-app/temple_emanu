@@ -46,15 +46,15 @@ $.ajax({
         url: 'http://localhost/temple_emanu/rss.php?q=net',
         success: function (html) {
             $('#output').html(html);
-           // $('#output').find('a').addClass('item-link');
-        //   var anchor= $$('#output').find('a');
-        //   $$(anchor).each(function(){
-        //     var link=$$(this).attr('href');
+            // $('#output').find('a').addClass('item-link');
+        var anchor= $$('#output').find('a');
+         $$(anchor).each(function(){
+            var link=$$(this).attr('href');
             
-        //     $$(this).attr('onclick', 'window.open("'+link+'","_system", "location=yes")');
-        //     $$(this).attr('href', 'javascript:void(0)');
+           $$(this).attr('onclick', 'window.open("'+link+'","_system", "location=yes")');
+           $$(this).attr('href', 'javascript:void(0)');
 
-        //   })
+        })
             
             
         },
@@ -71,7 +71,7 @@ $.ajax({
         async: true,
         
         type: "GET",
-        url: 'http://localhost/temple_emanu/rss.php?q=heb',
+        url: 'http://gicebmedia.com/sahana/temple/rss.php?q=heb',
         success: function (html) {
             $('#output').html(html);
            //$('#output').find('a').addClass('item-link');
