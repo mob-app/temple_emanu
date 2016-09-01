@@ -37,10 +37,7 @@ i.tabbar-demo-icon-4 {
     background-color: white;
 }
 
-.page-content {
-    /* background-color: wheat; */
-	background-image:url(images/hr.png);
-	}
+
 .content-block{
 	margin-top: 0;
 } 	
@@ -59,11 +56,39 @@ i.tabbar-demo-icon-4 {
     margin-top: 24px;
 }
 	
-	img{
-        width: 120px;
+img .item-media	{
+        width: 27px;
     margin-left: 32px;
 }
 
+img {
+    width: 28px;
+    margin: 0px auto;
+    margin-left: 33px;
+}
+
+
+.list-block {
+    margin-top: 0px;
+}
+
+.link {
+    margin-left: -26px;
+    width: 73px;
+}
+
+.link {
+    
+    margin-right: -6px;
+}
 .item-link {
     margin-left: -32px;
+}
+
+.swiper-lazy {
+    width: 100%;
+    margin-top: 69px;
+    /*margin-left: 12px;*/
+    margin-right: -5px;
+margin-left: -6px;
 }
