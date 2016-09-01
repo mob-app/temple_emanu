@@ -70,7 +70,7 @@ function member(mythis)
     }
     
      
-      var subject = "Membership Information form";
+      var subject = "Mi Sheberach List";
           //console.log(contact);
       $.ajax({
         url: "http://gicebmedia.com/sahana/temple/mi-sheberach_form.php?query=mail",
@@ -90,29 +90,29 @@ function member(mythis)
     }
 
 
- function showRSS(str) {
+ //function showRSS(str) {
 
-            if (str.length == 0) { 
-               document.getElementById("output").innerHTML = "";
-               return;
-            }
+ //           if (str.length == 0) { 
+ //              document.getElementById("output").innerHTML = "";
+ //              return;
+ //           }
          
-            if (window.XMLHttpRequest) {
-               xmlhttp = new XMLHttpRequest();
-            }else {
-               xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-            }
+ //           if (window.XMLHttpRequest) {
+ //              xmlhttp = new XMLHttpRequest();
+ //           }else {
+ //              xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+ //           }
 
-            xmlhttp.onreadystateclick = function() { 
-               alert();
-               if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-                  alert();
-                  document.getElementById("output").innerHTML = "test";//xmlhttp.responseText;
-               }
-            }
+ //           xmlhttp.onreadystateclick = function() { 
+ //              alert();
+ //              if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+ //                 alert();
+ //                 document.getElementById("output").innerHTML = "test";//xmlhttp.responseText;
+ //              }
+ //           }
             
-            xmlhttp.open("GET","rss.php?q="+str,true);
-            xmlhttp.send();
-            // alert();
-         }
+ //           xmlhttp.open("GET","rss.php?q="+str,true);
+ //           xmlhttp.send();
+ //           // alert();
+ //        }
       
