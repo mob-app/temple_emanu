@@ -46,7 +46,7 @@ $.ajax({
         url: 'http://localhost/temple_emanu/rss.php?q=net',
         success: function (html) {
             $('#output').html(html);
-            $(html).find('a').addClass('item-link');
+            $('#output').find('a').addClass('item-link');
             
         },
     });
@@ -65,7 +65,7 @@ $.ajax({
         url: 'http://localhost/temple_emanu/rss.php?q=heb',
         success: function (html) {
             $('#output').html(html);
-           $(html).find('a').addClass('item-link');
+          $('#output').find('a').addClass('item-link');
             
         },
     });
