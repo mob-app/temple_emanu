@@ -103,3 +103,7 @@ margin-left: -6px;
 .open-panel.link.icon-only {
     margin-right: -19px;
 }
+.button.active {
+    width: 100%;
+    background-color: #eeeef3;
+}
