@@ -59,4 +59,11 @@ i.tabbar-demo-icon-4 {
     margin-top: 24px;
 }
 	
-	
+	img{
+        width: 120px;
+    margin-left: 32px;
+}
+
+.item-link {
+    margin-left: -32px;
+}
