@@ -27,7 +27,7 @@ function member(mythis)
       var subject = "Membership Information form";
       		//console.log(contact);
   		$.ajax({
-  			url: "membership_form.php?query=mail",
+  			url: "http://gicebmedia.com/sahana/temple/membership_form.php?query=mail",
   			type:'POST',
   			data:{name: name, email:email, phone:phone, area:area,affiliation:affiliation,street:street,address_line2:address_line2,city:city,state:state,country:country,mobile:mobile,closter_area:closter_area,code:code},
   			success: function(result){
@@ -73,7 +73,7 @@ function member(mythis)
       var subject = "Membership Information form";
           //console.log(contact);
       $.ajax({
-        url: "mi-sheberach_form.php?query=mail",
+        url: "http://gicebmedia.com/sahana/temple/mi-sheberach_form.php?query=mail",
         type:'POST',
         data:{name: name,street:street, email:email, phone:phone, persons:persons,english_name:english_name,ill_person:ill_person,person_father:person_father,person_mother:person_mother,relationship:relationship,location:location},
         success: function(result){
@@ -88,3 +88,31 @@ function member(mythis)
         }
       })
     }
+
+
+ function showRSS(str) {
+
+            if (str.length == 0) { 
+               document.getElementById("output").innerHTML = "";
+               return;
+            }
+         
+            if (window.XMLHttpRequest) {
+               xmlhttp = new XMLHttpRequest();
+            }else {
+               xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+
+            xmlhttp.onreadystateclick = function() { 
+               alert();
+               if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                  alert();
+                  document.getElementById("output").innerHTML = "test";//xmlhttp.responseText;
+               }
+            }
+            
+            xmlhttp.open("GET","rss.php?q="+str,true);
+            xmlhttp.send();
+            // alert();
+         }
+      
