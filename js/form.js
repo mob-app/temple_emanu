@@ -70,7 +70,7 @@ function member(mythis)
     }
     
      
-      var subject = "Mi Sheberach List";
+      var subject = "Membership Information form";
           //console.log(contact);
       $.ajax({
         url: "http://gicebmedia.com/sahana/temple/mi-sheberach_form.php?query=mail",
@@ -90,29 +90,52 @@ function member(mythis)
     }
 
 
- //function showRSS(str) {
 
- //           if (str.length == 0) { 
- //              document.getElementById("output").innerHTML = "";
- //              return;
- //           }
-         
- //           if (window.XMLHttpRequest) {
- //              xmlhttp = new XMLHttpRequest();
- //           }else {
- //              xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
- //           }
 
- //           xmlhttp.onreadystateclick = function() { 
- //              alert();
- //              if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
- //                 alert();
- //                 document.getElementById("output").innerHTML = "test";//xmlhttp.responseText;
- //              }
- //           }
+
+// myApp.onPageInit('shabbat', function (page) {
+//   alert();
+// function showRSS2(str) {
+//  var str='heb';
+          
+
+// $.ajax({
+//         async: true,
+//         dataType: "json",
+//         type: "GET",
+//         url: 'http://localhost/temple_emanu/rss.php?q='+str,
+//         success: function (html) {
+//             $('#output').html(html);
             
- //           xmlhttp.open("GET","rss.php?q="+str,true);
- //           xmlhttp.send();
- //           // alert();
- //        }
+//         },
+//     });
+// }
+// })
+
+
+ // function showRSS(str) {
+
+ //            if (str.length == 0) { 
+ //               document.getElementById("output").innerHTML = "";
+ //               return;
+ //            }
+         
+ //            if (window.XMLHttpRequest) {
+ //               xmlhttp = new XMLHttpRequest();
+ //            }else {
+ //               xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+ //            }
+
+ //            xmlhttp.onreadystateclick = function() { 
+ //               alert();
+ //               if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+ //                  alert();
+ //                  document.getElementById("output").innerHTML = "test";//xmlhttp.responseText;
+ //               }
+ //            }
+            
+ //            xmlhttp.open("GET","rss.php?q="+str,true);
+ //            xmlhttp.send();
+ //            // alert();
+ //         }
       
