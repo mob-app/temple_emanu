@@ -111,3 +111,19 @@ margin-left: -6px;
 .ks-grid {
     margin-top: -18px;
 }
+
+.row.no-gutter .col-25 img  {
+  width: 61px;
+  margin-top: -66px;
+  margin-left: 0px;
+    
+}
+
+.page-content{
+  background-image: url(../images/bgnd.png);
+  width:100%;
+}
+
+strong {
+    color: aliceblue;
+}
