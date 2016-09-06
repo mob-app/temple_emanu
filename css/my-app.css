@@ -105,7 +105,7 @@ margin-left: -6px;
 }
 .button.active {
     width: 100%;
-    background-color: #eeeef3;
+    background-color: rgba(60, 144, 239, 0.61);
 }
 
 .ks-grid {
@@ -120,10 +120,8 @@ margin-left: -6px;
 }
 
 .page-content{
-  background-image: url(../images/bgnd.png);
+  background-image: url(../images/backgnd1.png);
   width:100%;
 }
 
-strong {
-    color: aliceblue;
-}
+
