@@ -108,9 +108,9 @@ margin-left: -6px;
     
 }
 
-/*.ks-grid {*/
-/*    margin-top: -173px;*/
-/*}*/
+.ks-grid {
+    margin-top: -173px;
+}
 
 .row .col-50 img  {
   width: 75px;
@@ -134,7 +134,10 @@ margin-left: -6px;
 }
 
 .list-block ul {
-    padding: 5px;background-color: rgba(4, 4, 5, 0.9);margin-top: 43px;margin-bottom: -35px;
+    padding: 5px;
+    background-color: rgba(4, 4, 5, 0.9);
+    /*margin-top: 43px;*/
+    /*margin-bottom: -35px;*/
 }
 
 .item-title {
