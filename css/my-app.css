@@ -39,7 +39,7 @@ i.tabbar-demo-icon-4 {
 
 
 .content-block{
-	margin-top: -39px;
+	margin-top: 0;
 } 	
 
 .content-block-inner {
@@ -103,17 +103,31 @@ margin-left: -6px;
 .open-panel.link.icon-only {
     margin-right: -19px;
 }
+
 .button.active {
     width: 100%;
-    
+    /*background-color: rgba(60, 144, 239, 0.61);*/
 }
+
+/*.toolbar-inner {
+    background-color: #160704;
+}*/
 
 .ks-grid {
     margin-top: -173px;
 }
 
+ /* img .col-25 {
+  width: 44px;
+  margin-top: -66px;
+  margin-left: 0px;
+}*/
+
 .row .col-50 img  {
   width: 75px;
+  /*margin-top: -66px;
+  margin-left: -8px;
+    */
 }
 
 .col-50 {
@@ -121,26 +135,21 @@ margin-left: -6px;
     margin-right: -6px;
 }
 
-/*.page-content{*/
-/*  background-image: url(../images/fruit.png);*/
-/*  width:100%;*/
-/*  height:100%;*/
-/*}*/
-
 .page-content{
   background-image: url(../images/fruit.png);
   width:100%;
   height: 100%; 
 }
 
-.list-block ul {
-    padding: 5px;
-    background-color: rgba(4, 4, 5, 0.9);
-    /*margin-top: 43px;*/
-    /*margin-bottom: -35px;*/
-}
+/*strong {
+    color: aliceblue;
+}*/
 
-.item-title {
-    color: whitesmoke;
-}
+  .list-block ul {
+      padding: 5px;background-color: rgba(4, 4, 5, 0.9);margin-top: 43px;margin-bottom: -35px;
+  }
+
+  .item-title {
+      color: whitesmoke;
+  }
 
