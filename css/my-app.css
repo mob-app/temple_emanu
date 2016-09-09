@@ -109,37 +109,23 @@ margin-left: -6px;
     /*background-color: rgba(60, 144, 239, 0.61);*/
 }
 
-/*.toolbar-inner {
-    background-color: #160704;
-}*/
+
+
 
 .ks-grid {
-    margin-top: -173px;
-    padding: 9px;
-}
-
- /* img .col-25 {
-  width: 44px;
-  margin-top: -66px;
-  margin-left: 0px;
-}*/
-
-.row .col-50 img  {
-  width: 75px;
-  /*margin-top: -66px;
-  margin-left: -8px;
-    */
-}
-
-.col-50 {
-    margin-left: -20px;
-    margin-right: -6px;
+    margin-top: -111px;
+padding: 26px;
+margin-left: -77px;
+   
 }
 
 
-/*strong {
-    color: aliceblue;
-}*/
+.row .col-25 img{
+      width: 70px;
+
+}
+
+
 
   .list-block ul {
       padding: 5px;background-color: rgba(4, 4, 5, 0.9);margin-top: 43px;margin-bottom: -35px;
