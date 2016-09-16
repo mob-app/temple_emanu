@@ -121,14 +121,17 @@ margin-left: -77px;
 
 
 .row .col-25 img{
-      width: 77px;
-      margin-top: 66px;   			
+      width: 70px;
+      margin-top: 40px;
 }
+
+/*.col-25 {
+  margin-top: 83px;
+}*/
 
 .row{
   margin-bottom: 0px;
 }
-
 
   .list-block ul {
       padding: 5px;background-color: rgba(4, 4, 5, 0.9);margin-top: 43px;margin-bottom: -35px;
@@ -138,3 +141,34 @@ margin-left: -77px;
       color: whitesmoke;
   }
 
+.bg_img{
+	background-image:url(../images/home.png);
+	background-size:100%;
+}
+
+
+.bottom_icons {
+    bottom: 0px;
+    position: absolute;
+	background-image:url(../images/arc_blue.png);
+	background-size:100% 100%;
+	text-align:center;
+	 padding-bottom: 15px;
+}
+.bottom_icons img{
+	max-width:100%;
+	margin:0px;
+}
+.bottom_icons a{
+	color:#fff;
+	text-align:center;
+}
+.home_logo{
+ 
+	background-image:url(../images/arc_white.png);
+ 
+}
+.home_logo img{
+	text-align:center;
+	width:250px;
+}
